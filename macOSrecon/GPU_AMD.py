@@ -1,5 +1,4 @@
 """Functions relating to AMD GPUs"""
-import json
 import os
 import plistlib
 
