@@ -1,4 +1,4 @@
-== macOSrecon ==
+# macOSrecon
 
 This is a collection of Python scripts that poke around inside macOS to find information about the hardware it supports.
 
