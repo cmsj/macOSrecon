@@ -3,6 +3,8 @@
 
 import macOSrecon.boardIDs as boardIDs
 import macOSrecon.GPU_AMD as GPU_AMD
+import macOSrecon.GPU_Intel as GPU_Intel
+import macOSrecon.kexts as kexts
 
 OUTPUT = "data/"
 
@@ -12,7 +14,10 @@ def main():
     boardIDs.dumpX86(OUTPUT + "boardIDs-x86.txt")
     boardIDs.dumpACPI_SMC(OUTPUT + "boardIDs-ACPI_SMC.txt")
 
+    kexts.dumpExts(OUTPUT + "kexts.txt")
+
     GPU_AMD.dumpAMDcards(OUTPUT + "GPU_AMD/")
+    GPU_Intel.dumpIntelcards(OUTPUT + "GPU_Intel/")
 
 
 if __name__ == "__main__":
