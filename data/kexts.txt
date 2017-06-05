@@ -11,8 +11,10 @@ AMD6000Controller
 AMD7000Controller
 AMD8000Controller
 AMD9000Controller
-AMD9500Controller
+AMD9510Controller
 AMDFramebuffer
+AMDLegacyFramebuffer
+AMDLegacySupport
 AMDRadeonX3000
 AMDRadeonX4000
 AMDRadeonX4100
@@ -233,6 +235,7 @@ IOAVBStreamingPlugin
 IOMRPPlugin
 IOBDStorageFamily
 IOBluetoothFamily
+BroadcomBluetooth20703USBTransport
 BroadcomBluetoothHostControllerUSBTransport
 CSRBluetoothHostControllerUSBTransport
 CSRHIDTransitionDriver
@@ -309,6 +312,7 @@ IOTimeSyncFamily
 IOgPTPPlugin
 IOUSBAttachedSCSI
 IOUSBFamily
+AppleLegacyUSBAudio
 AppleUSBLegacyHub
 AppleUSBMergeNub
 AppleUSBVideoSupport
@@ -378,6 +382,9 @@ MACFramework
 Mach
 Private
 Unsupported
+TestDeviceVCOM
+TestDeviceVCOMACMControl
+TestDeviceVCOMACMData
 TMSafetyNet
 triggers
 udf
