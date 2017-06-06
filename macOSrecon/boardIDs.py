@@ -5,7 +5,7 @@ import os
 def gatherPlistFiles(filePath):
     """Gather a list of plist files in a path, removing the .plist suffix"""
     # This should only be used for directories that contain exclusively plists
-    return [f.split(".plist")[0] for f in os.listdir(filePath)]
+    return sorted([f.split(".plist")[0] for f in os.listdir(filePath)])
 
 
 def dumpListToFile(dataList, filePath):

@@ -10,7 +10,7 @@ def gatherExts():
     for root, dirs, files in os.walk(ROOT):
         if root[-5:] == ".kext":
             kexts.append(root.split('/')[-1][:-5])
-    return kexts
+    return sorted(kexts)
 
 
 def dumpExts(filePath):
