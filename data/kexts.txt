@@ -1,4 +1,5 @@
 ACPI_SMC_PlatformPlugin
+AGDCPluginDisplayMetrics
 ALF
 AMD2400Controller
 AMD2600Controller
@@ -10,18 +11,28 @@ AMD6000Controller
 AMD7000Controller
 AMD8000Controller
 AMD9000Controller
+AMD9300Controller
+AMD9500Controller
 AMD9510Controller
+AMD9515Controller
+AMD9520Controller
 AMDFramebuffer
 AMDLegacyFramebuffer
 AMDLegacySupport
 AMDRadeonX3000
 AMDRadeonX4000
 AMDRadeonX4100
+AMDRadeonX4150
+AMDRadeonX4200
+AMDRadeonX4250
+AMDRadeonX4500HWServices
 AMDSupport
 ATIRadeonX2000
 AirPortAtheros40
 AirPortBrcm4331
 AirPortBrcm4360
+AirPortBrcmNIC
+AirPortBrcmNIC-MFG
 Apple16X50ACPI
 Apple16X50Serial
 AppleACPIButtons
@@ -30,7 +41,11 @@ AppleACPIPlatform
 AppleAHCIPort
 AppleAPIC
 AppleATAPIStorage
+AppleActuatorDriver
 AppleBCM5701Ethernet
+AppleBCMWLANBusInterfacePCIe
+AppleBCMWLANCore
+AppleBCMWLANCoreV3_Datastore
 AppleBacklight
 AppleBacklightExpert
 AppleBluetoothHIDKeyboard
@@ -40,7 +55,6 @@ AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
 AppleCredentialManager
-AppleDataSetManagement
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -51,7 +65,11 @@ AppleDiskImagesSparseDiskImage
 AppleDiskImagesUDIFDiskImage
 AppleEFINVRAM
 AppleEFIRuntime
+AppleEffaceableNOR
+AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
+AppleEthernetAquantiaAqtion
+AppleEthernetBroadcomCaesar
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
@@ -60,6 +78,7 @@ AppleFWAudio
 AppleFWOHCI
 AppleFileSystemDriver
 AppleFireWireStorage
+AppleGPUWrangler
 AppleGraphicsControl
 AppleGraphicsDeviceControl
 AppleGraphicsDevicePolicy
@@ -93,6 +112,8 @@ AppleIntelHD5000Graphics
 AppleIntelHDGraphics
 AppleIntelHDGraphicsFB
 AppleIntelI210Ethernet
+AppleIntelKBLGraphics
+AppleIntelKBLGraphicsFramebuffer
 AppleIntelLpssDmac
 AppleIntelLpssGspi
 AppleIntelLpssI2C
@@ -127,6 +148,7 @@ AppleMuxControl
 AppleNMI
 AppleOSXUSBNCM
 AppleOSXWatchdog
+AppleOnboardSerial
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
@@ -134,12 +156,14 @@ AppleRAID
 AppleRAIDCard
 AppleRTC
 AppleSDXC
+AppleSEPManager
 AppleSMBIOS
 AppleSMBusController
 AppleSMBusPCI
 AppleSMC
 AppleSMCLMU
 AppleSMCPDRC
+AppleSMCRTC
 AppleSRP
 AppleSSE
 AppleSmartBatteryManager
@@ -165,6 +189,7 @@ AppleUSBACM
 AppleUSBAudio
 AppleUSBCDC
 AppleUSBCardReader
+AppleUSBCommon
 AppleUSBDMM
 AppleUSBDisplays
 AppleUSBECM
@@ -190,6 +215,7 @@ AppleUSBODD
 AppleUSBOHCI
 AppleUSBOHCIPCI
 AppleUSBOpticalMouse
+AppleUSBSerial
 AppleUSBStorageCoexistentDriver
 AppleUSBTCButtons
 AppleUSBTCKeyEventDriver
@@ -197,9 +223,9 @@ AppleUSBTCKeyboard
 AppleUSBTDM
 AppleUSBTopCase
 AppleUSBTopCaseDriver
-AppleUSBTrackpad
 AppleUSBUHCI
 AppleUSBUHCIPCI
+AppleUSBVHCICommon
 AppleUSBVideoSupport
 AppleUSBWCM
 AppleUSBXHCI
@@ -216,8 +242,11 @@ AppleXserveRAID
 AppleYukon2
 Apple_iSight
 AudioAUUC
+BCMWLANFirmware4364_Datastore
 BSDKernel
 BootCache
+BridgeAudioCommunication
+BridgeAudioController
 BroadcomBluetooth20703USBTransport
 BroadcomBluetoothHostControllerUSBTransport
 CSRBluetoothHostControllerUSBTransport
@@ -258,6 +287,9 @@ IOBluetoothHostControllerUARTTransport
 IOBluetoothHostControllerUSBTransport
 IOBluetoothSerialManager
 IOBluetoothUSBDFU
+IOBufferCopyController
+IOBufferCopyEngineFamily
+IOBufferCopyEngineTest
 IOCDStorageFamily
 IODVDStorageFamily
 IOEthernetAVBController
@@ -276,6 +308,7 @@ IOHIDEventDriverSafeBoot
 IOHIDFamily
 IOHIDSystem
 IOHIDUserClient
+IOImageLoader
 IOKit
 IOMRPPlugin
 IONDRVSupport
@@ -294,6 +327,7 @@ IOSCSIReducedBlockCommandsDevice
 IOSMBusFamily
 IOSerialFamily
 IOSkywalkFamily
+IOSlaveProcessor
 IOSlowAdaptiveClockingFamily
 IOStorageFamily
 IOStreamFamily
@@ -320,6 +354,7 @@ IOVideoFamily
 IOgPTPPlugin
 Intel82574L
 KXLog
+Kasan
 KernelRelayHost
 L2TP
 LSI-FW-500
@@ -347,7 +382,6 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
-RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
@@ -363,7 +397,6 @@ TestDeviceVCOMACMData
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
-UsbEthernetGadget
 WriteProtectedMediaDriver
 X86PlatformPlugin
 X86PlatformShim
