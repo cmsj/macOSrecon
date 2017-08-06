@@ -1,6 +1,8 @@
 ACPI_SMC_PlatformPlugin
+AGDCBacklightControl
 AGDCPluginDisplayMetrics
 ALF
+AMD10000Controller
 AMD2400Controller
 AMD2600Controller
 AMD3800Controller
@@ -25,9 +27,13 @@ AMDRadeonX4100
 AMDRadeonX4150
 AMDRadeonX4200
 AMDRadeonX4250
-AMDRadeonX4500HWServices
+AMDRadeonX5000
+AMDRadeonX5000AccelLibs
+AMDRadeonX5000HWLibs
+AMDRadeonX5000HWServices
 AMDSupport
 ATIRadeonX2000
+AVEBridge
 AirPortAtheros40
 AirPortBrcm4331
 AirPortBrcm4360
@@ -69,7 +75,6 @@ AppleEffaceableNOR
 AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
 AppleEthernetAquantiaAqtion
-AppleEthernetBroadcomCaesar
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
@@ -78,6 +83,7 @@ AppleFWAudio
 AppleFWOHCI
 AppleFileSystemDriver
 AppleFireWireStorage
+AppleGFXHDA
 AppleGPUWrangler
 AppleGraphicsControl
 AppleGraphicsDeviceControl
@@ -266,6 +272,7 @@ HFSEncodings
 IO80211Family
 IO80211FamilyV2
 IO80211NetBooter
+IO80211NetBooterV2
 IOACPIFamily
 IOAHCIBlockStorage
 IOAHCIFamily
@@ -382,6 +389,7 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
+RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
