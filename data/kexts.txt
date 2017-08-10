@@ -74,7 +74,6 @@ AppleEFIRuntime
 AppleEffaceableNOR
 AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
-AppleEthernetAquantiaAqtion
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
@@ -416,6 +415,7 @@ cd9660
 cddafs
 corecapture
 corecrypto
+eficheck
 exfat
 iPodDriver
 iPodSBCDriver
