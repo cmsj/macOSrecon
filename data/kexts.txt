@@ -61,6 +61,7 @@ AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
 AppleCredentialManager
+AppleDataSetManagement
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -388,7 +389,6 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
-RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
@@ -404,6 +404,7 @@ TestDeviceVCOMACMData
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
+UsbEthernetGadget
 WriteProtectedMediaDriver
 X86PlatformPlugin
 X86PlatformShim
