@@ -231,6 +231,7 @@ AppleUSBTopCase
 AppleUSBTopCaseDriver
 AppleUSBUHCI
 AppleUSBUHCIPCI
+AppleUSBVHCI
 AppleUSBVHCICommon
 AppleUSBVideoSupport
 AppleUSBWCM
@@ -389,6 +390,7 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
+RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
@@ -398,9 +400,6 @@ SonyXDCAMDriver
 StorageLynx
 System
 TMSafetyNet
-TestDeviceVCOM
-TestDeviceVCOMACMControl
-TestDeviceVCOMACMData
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
