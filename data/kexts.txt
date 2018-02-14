@@ -80,6 +80,8 @@ AppleEffaceableNOR
 AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
 AppleEthernetAquantiaAqtion
+AppleEthernetAquantiaAqtionFirmware
+AppleEthernetAquantiaAqtionFirmwareDev
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
