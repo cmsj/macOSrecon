@@ -13,11 +13,7 @@ AMD6000Controller
 AMD7000Controller
 AMD8000Controller
 AMD9000Controller
-AMD9300Controller
 AMD9500Controller
-AMD9510Controller
-AMD9515Controller
-AMD9520Controller
 AMDFramebuffer
 AMDLegacyFramebuffer
 AMDLegacySupport
@@ -28,14 +24,9 @@ AMDRadeonX4000HWServices
 AMDRadeonX4030HWLibs
 AMDRadeonX4050HWLibs
 AMDRadeonX4070HWLibs
-AMDRadeonX4100
 AMDRadeonX4100HWLibs
-AMDRadeonX4150
-AMDRadeonX4200
 AMDRadeonX4200HWLibs
-AMDRadeonX4250
 AMDRadeonX5000
-AMDRadeonX5000AccelLibs
 AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
@@ -54,8 +45,12 @@ AppleACPIPlatform
 AppleAHCIPort
 AppleAPIC
 AppleATAPIStorage
+AppleAVEBridge
 AppleActuatorDriver
 AppleBCM5701Ethernet
+AppleBCMWLANBusInterfacePCIe
+AppleBCMWLANCore
+AppleBCMWLANCoreV3_Datastore
 AppleBacklight
 AppleBacklightExpert
 AppleBluetoothHIDKeyboard
@@ -81,7 +76,6 @@ AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
 AppleEthernetAquantiaAqtion
 AppleEthernetAquantiaAqtionFirmware
-AppleEthernetAquantiaAqtionFirmwareDev
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
@@ -158,6 +152,7 @@ AppleMobileDevice
 AppleMobileFileIntegrity
 AppleMultitouchDriver
 AppleMuxControl
+AppleMuxControl2
 AppleNMI
 AppleOSXUSBNCM
 AppleOSXWatchdog
@@ -240,7 +235,6 @@ AppleUSBUHCI
 AppleUSBUHCIPCI
 AppleUSBVHCI
 AppleUSBVHCICommon
-AppleUSBVideoSupport
 AppleUSBWCM
 AppleUSBXHCI
 AppleUSBXHCIPCI
@@ -256,6 +250,8 @@ AppleXserveRAID
 AppleYukon2
 Apple_iSight
 AudioAUUC
+BCMWLANFirmware4364_Datastore
+BCMWLANFirmware4364_Hashstore
 BSDKernel
 BootCache
 BridgeAudioCommunication
@@ -303,7 +299,6 @@ IOBluetoothSerialManager
 IOBluetoothUSBDFU
 IOBufferCopyController
 IOBufferCopyEngineFamily
-IOBufferCopyEngineTest
 IOCDStorageFamily
 IODVDStorageFamily
 IOEthernetAVBController
