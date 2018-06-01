@@ -176,6 +176,7 @@ AppleSRP
 AppleSSE
 AppleSmartBatteryManager
 AppleStorageDrivers
+AppleSystemPolicy
 AppleThunderboltDPAdapterFamily
 AppleThunderboltDPAdapters
 AppleThunderboltDPInAdapter
