@@ -3,21 +3,11 @@ AGDCBacklightControl
 AGDCPluginDisplayMetrics
 ALF
 AMD10000Controller
-AMD2400Controller
-AMD2600Controller
-AMD3800Controller
-AMD4600Controller
-AMD4800Controller
-AMD5000Controller
-AMD6000Controller
 AMD7000Controller
 AMD8000Controller
 AMD9000Controller
 AMD9500Controller
 AMDFramebuffer
-AMDLegacyFramebuffer
-AMDLegacySupport
-AMDRadeonX3000
 AMDRadeonX4000
 AMDRadeonX4000HWLibs
 AMDRadeonX4000HWServices
@@ -31,8 +21,6 @@ AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
 AMDSupport
-ATIRadeonX2000
-AirPortAtheros40
 AirPortBrcm4331
 AirPortBrcm4360
 AirPortBrcmNIC
@@ -60,7 +48,6 @@ AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
 AppleCredentialManager
-AppleDataSetManagement
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -113,11 +100,8 @@ AppleIntelCPUPowerManagement
 AppleIntelCPUPowerManagementClient
 AppleIntelFramebufferAzul
 AppleIntelFramebufferCapri
-AppleIntelHD3000Graphics
 AppleIntelHD4000Graphics
 AppleIntelHD5000Graphics
-AppleIntelHDGraphics
-AppleIntelHDGraphicsFB
 AppleIntelI210Ethernet
 AppleIntelKBLGraphics
 AppleIntelKBLGraphicsFramebuffer
@@ -134,7 +118,6 @@ AppleIntelPCHPMC
 AppleIntelPIIXATA
 AppleIntelSKLGraphics
 AppleIntelSKLGraphicsFramebuffer
-AppleIntelSNBGraphicsFB
 AppleIntelSlowAdaptiveClocking
 AppleKextExcludeList
 AppleKeyStore
@@ -152,7 +135,6 @@ AppleMobileDevice
 AppleMobileFileIntegrity
 AppleMultitouchDriver
 AppleMuxControl
-AppleMuxControl2
 AppleNMI
 AppleOSXUSBNCM
 AppleOSXWatchdog
@@ -197,6 +179,7 @@ AppleTyMCEDriver
 AppleUSBACM
 AppleUSBAudio
 AppleUSBCDC
+AppleUSBCHCOM
 AppleUSBCardReader
 AppleUSBCommon
 AppleUSBDMM
@@ -221,9 +204,9 @@ AppleUSBMultitouch
 AppleUSBNCM
 AppleUSBNetworking
 AppleUSBODD
-AppleUSBOHCI
-AppleUSBOHCIPCI
 AppleUSBOpticalMouse
+AppleUSBPLCOM
+AppleUSBRealtek8153Patcher
 AppleUSBSerial
 AppleUSBStorageCoexistentDriver
 AppleUSBTCButtons
@@ -265,12 +248,12 @@ CanonEOS1D
 CellPhoneHelper
 CoreStorage
 CoreStorageFsck
+CoreTrust
 Dont Steal Mac OS X
 DspFuncLib
 FWPreferredProtocolSpeed
 FireWireStorageDeviceSpecifics
 GeForce
-GeForceTesla
 HFS
 HFSEncodings
 IO80211Family
@@ -377,9 +360,7 @@ Mach
 MaxTranserSizeOverrideDriver
 NVDAGF100Hal
 NVDAGK100Hal
-NVDANV50HalTesla
 NVDAResman
-NVDAResmanTesla
 NVDAStartup
 NVSMU
 OSvKernDSPLib
@@ -392,7 +373,6 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
-RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
@@ -405,7 +385,6 @@ TMSafetyNet
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
-UsbEthernetGadget
 WriteProtectedMediaDriver
 X86PlatformPlugin
 X86PlatformShim
