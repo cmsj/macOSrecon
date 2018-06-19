@@ -16,10 +16,16 @@ AMDRadeonX4050HWLibs
 AMDRadeonX4070HWLibs
 AMDRadeonX4100HWLibs
 AMDRadeonX4200HWLibs
+AMDRadeonX4300HWLibs
+AMDRadeonX4400HWLibs
 AMDRadeonX5000
 AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
+AMDRadeonX5400HWLibs
+AMDRadeonX5700HWLibs
+AMDRadeonX6000HWLibs
+AMDRadeonX6000HWServices
 AMDSupport
 AirPortBrcm4331
 AirPortBrcm4360
@@ -175,7 +181,6 @@ AppleThunderboltUTDM
 AppleTopCase
 AppleTopCaseActuatorHIDDriver
 AppleTopCaseHIDEventDriver
-AppleTyMCEDriver
 AppleUSBACM
 AppleUSBAudio
 AppleUSBCDC
@@ -373,6 +378,7 @@ PlasmonUDO
 Private
 QPSQueFire
 Quarantine
+RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
