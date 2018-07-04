@@ -148,6 +148,7 @@ AppleOnboardSerial
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
+AppleQEMUHID
 AppleRAID
 AppleRAIDCard
 AppleRTC
@@ -229,6 +230,8 @@ AppleUSBXHCI
 AppleUSBXHCIPCI
 AppleUSBiBridge
 AppleUpstreamUserClient
+AppleVirtIO
+AppleVirtualGraphics
 AppleVmxnet3Ethernet
 AppleWWANAutoEject
 AppleWWANSupport
