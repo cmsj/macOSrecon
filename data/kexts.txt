@@ -102,6 +102,7 @@ AppleInputDeviceSupport
 AppleIntel8254XEthernet
 AppleIntelBDWGraphics
 AppleIntelBDWGraphicsFramebuffer
+AppleIntelCFLGraphicsFramebuffer
 AppleIntelCPUPowerManagement
 AppleIntelCPUPowerManagementClient
 AppleIntelFramebufferAzul
