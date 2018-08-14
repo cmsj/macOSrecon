@@ -76,6 +76,7 @@ AppleFSCompressionTypeZlib
 AppleFWAudio
 AppleFWOHCI
 AppleFileSystemDriver
+AppleFileUtil
 AppleFireWireStorage
 AppleGFXHDA
 AppleGPUWrangler
@@ -142,6 +143,7 @@ AppleMobileDevice
 AppleMobileFileIntegrity
 AppleMultitouchDriver
 AppleMuxControl
+AppleMuxControl2
 AppleNMI
 AppleOSXUSBNCM
 AppleOSXWatchdog
