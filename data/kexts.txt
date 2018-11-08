@@ -54,6 +54,7 @@ AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
 AppleCredentialManager
+AppleDataSetManagement
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -360,6 +361,7 @@ Intel82574L
 KXLog
 Kasan
 KernelRelayHost
+KextAudit
 L2TP
 LSI-FW-500
 Libkern
@@ -397,6 +399,7 @@ TMSafetyNet
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
+UsbEthernetGadget
 WriteProtectedMediaDriver
 X86PlatformPlugin
 X86PlatformShim
