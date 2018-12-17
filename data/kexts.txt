@@ -246,6 +246,8 @@ AppleXserveRAID
 AppleYukon2
 Apple_iSight
 AudioAUUC
+BCMWLANFirmware4355_Datastore
+BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Datastore
 BCMWLANFirmware4364_Hashstore
 BSDKernel
