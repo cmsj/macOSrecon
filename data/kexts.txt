@@ -54,7 +54,6 @@ AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
 AppleCredentialManager
-AppleDataSetManagement
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -401,7 +400,6 @@ TMSafetyNet
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
-UsbEthernetGadget
 WriteProtectedMediaDriver
 X86PlatformPlugin
 X86PlatformShim
