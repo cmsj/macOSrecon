@@ -24,13 +24,10 @@ AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
 AMDRadeonX5400HWLibs
 AMDRadeonX5700HWLibs
-AMDRadeonX6000HWLibs
-AMDRadeonX6000HWServices
 AMDSupport
 AirPortBrcm4331
 AirPortBrcm4360
 AirPortBrcmNIC
-AirPortBrcmNIC-MFG
 Apple16X50ACPI
 Apple16X50Serial
 AppleACPIButtons
@@ -47,12 +44,17 @@ AppleBCMWLANCore
 AppleBCMWLANCoreV3_Datastore
 AppleBacklight
 AppleBacklightExpert
+AppleBluetoothDebug
+AppleBluetoothDebugService
 AppleBluetoothHIDKeyboard
 AppleBluetoothHIDMouse
+AppleBluetoothModule
 AppleBluetoothMultitouch
 AppleBluetoothRemote
 AppleBusPowerController
 AppleCameraInterface
+AppleConvergedIPCOLYBTControl
+AppleConvergedPCI
 AppleCredentialManager
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
@@ -141,6 +143,7 @@ AppleMikeyDriver
 AppleMikeyHIDDriver
 AppleMobileDevice
 AppleMobileFileIntegrity
+AppleMultiFunctionManager
 AppleMultitouchDriver
 AppleMuxControl
 AppleMuxControl2
@@ -213,6 +216,8 @@ AppleUSBMultitouch
 AppleUSBNCM
 AppleUSBNetworking
 AppleUSBODD
+AppleUSBOHCI
+AppleUSBOHCIPCI
 AppleUSBOpticalMouse
 AppleUSBPLCOM
 AppleUSBRealtek8153Patcher
@@ -249,6 +254,7 @@ BCMWLANFirmware4355_Datastore
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Datastore
 BCMWLANFirmware4364_Hashstore
+BCMWLANFirmware4377_Hashstore
 BSDKernel
 BootCache
 BridgeAudioCommunication
@@ -289,6 +295,7 @@ IOAudioFamily
 IOBDStorageFamily
 IOBluetoothFamily
 IOBluetoothHIDDriver
+IOBluetoothHostControllerPCIeTransport
 IOBluetoothHostControllerTransport
 IOBluetoothHostControllerUARTTransport
 IOBluetoothHostControllerUSBTransport
