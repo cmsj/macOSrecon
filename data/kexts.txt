@@ -18,6 +18,7 @@ AMDRadeonX4100HWLibs
 AMDRadeonX4200HWLibs
 AMDRadeonX4300HWLibs
 AMDRadeonX4400HWLibs
+AMDRadeonX4700HWLibs
 AMDRadeonX5000
 AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
@@ -232,7 +233,9 @@ AppleUSBTopCaseDriver
 AppleUSBUHCI
 AppleUSBUHCIPCI
 AppleUSBVHCI
+AppleUSBVHCIBCE
 AppleUSBVHCICommon
+AppleUSBVHCICommonBCE
 AppleUSBWCM
 AppleUSBXHCI
 AppleUSBXHCIPCI
@@ -250,9 +253,7 @@ AppleXserveRAID
 AppleYukon2
 Apple_iSight
 AudioAUUC
-BCMWLANFirmware4355_Datastore
 BCMWLANFirmware4355_Hashstore
-BCMWLANFirmware4364_Datastore
 BCMWLANFirmware4364_Hashstore
 BCMWLANFirmware4377_Hashstore
 BSDKernel
