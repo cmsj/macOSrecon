@@ -24,9 +24,7 @@ AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
 AMDRadeonX5400HWLibs
-AMDRadeonX5700HWLibs
 AMDSupport
-AirPortBrcm4331
 AirPortBrcm4360
 AirPortBrcmNIC
 Apple16X50ACPI
@@ -42,7 +40,6 @@ AppleActuatorDriver
 AppleBCM5701Ethernet
 AppleBCMWLANBusInterfacePCIe
 AppleBCMWLANCore
-AppleBCMWLANCoreV3_Datastore
 AppleBacklight
 AppleBacklightExpert
 AppleBluetoothDebug
@@ -99,9 +96,9 @@ AppleHSBluetoothDriver
 AppleHSSPIHIDDriver
 AppleHSSPISupport
 AppleHV
-AppleHWSensor
 AppleHollywood
 AppleIRController
+AppleImage4
 AppleInputDeviceSupport
 AppleIntel8254XEthernet
 AppleIntelBDWGraphics
@@ -130,7 +127,6 @@ AppleIntelPIIXATA
 AppleIntelSKLGraphics
 AppleIntelSKLGraphicsFramebuffer
 AppleIntelSlowAdaptiveClocking
-AppleKextExcludeList
 AppleKeyStore
 AppleLPC
 AppleLSIFusionMPT
@@ -142,7 +138,6 @@ AppleMatch
 AppleMemorexCDROMDriver
 AppleMikeyDriver
 AppleMikeyHIDDriver
-AppleMobileDevice
 AppleMobileFileIntegrity
 AppleMultiFunctionManager
 AppleMultitouchDriver
@@ -150,14 +145,12 @@ AppleMuxControl
 AppleMuxControl2
 AppleNMI
 AppleOSXUSBNCM
-AppleOSXWatchdog
 AppleOnboardSerial
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
 AppleQEMUHID
 AppleRAID
-AppleRAIDCard
 AppleRTC
 AppleSDXC
 AppleSEPManager
@@ -188,6 +181,7 @@ AppleThunderboltPCIUpAdapter
 AppleThunderboltUTDM
 AppleTopCase
 AppleTopCaseActuatorHIDDriver
+AppleTopCaseDriverV2
 AppleTopCaseHIDEventDriver
 AppleUSBACM
 AppleUSBAudio
@@ -209,6 +203,7 @@ AppleUSBHostBillboardDevice
 AppleUSBHostCompositeDevice
 AppleUSBHostMergeProperties
 AppleUSBHostPacketFilter
+AppleUSBHostPlatformProperties
 AppleUSBHub
 AppleUSBIrDA
 AppleUSBLegacyHub
@@ -250,8 +245,8 @@ AppleWWANSupport1
 AppleWWANSupport2
 AppleXsanScheme
 AppleXserveRAID
-AppleYukon2
 Apple_iSight
+Athena
 AudioAUUC
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Hashstore
@@ -266,11 +261,13 @@ CSRBluetoothHostControllerUSBTransport
 CSRHIDTransitionDriver
 CanonEOS1D
 CellPhoneHelper
+CoreAnalyticsFamily
 CoreStorage
 CoreStorageFsck
 CoreTrust
 Dont Steal Mac OS X
 DspFuncLib
+EndpointSecurity
 FWPreferredProtocolSpeed
 FireWireStorageDeviceSpecifics
 GeForce
@@ -300,6 +297,7 @@ IOBluetoothHostControllerPCIeTransport
 IOBluetoothHostControllerTransport
 IOBluetoothHostControllerUARTTransport
 IOBluetoothHostControllerUSBTransport
+IOBluetoothPacketLogger
 IOBluetoothSerialManager
 IOBluetoothUSBDFU
 IOBufferCopyController
@@ -367,7 +365,6 @@ IOVideoDeviceUserClient
 IOVideoFamily
 IOgPTPPlugin
 Intel82574L
-KXLog
 Kasan
 KernelRelayHost
 KextAudit
@@ -385,17 +382,16 @@ NVDAGK100Hal
 NVDAResman
 NVDAStartup
 NVSMU
+NetworkingDriverKitTestEthernet
 OSvKernDSPLib
 OxfordSemiconductor
 PPP
 PPPoE
-PPTP
 PioneerSuperDrive
 PlasmonUDO
 Private
 QPSQueFire
 Quarantine
-RemoteVirtualInterface
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SMCMotionSensor
@@ -428,12 +424,12 @@ mDNSOffloadUserClient
 mcxalr
 msdosfs
 ntfs
-nvenet
 pmtelemetry
 pthread
 smbfs
 triggers
 udf
 vecLib
+watchdog
 webcontentfilter
 webdav_fs
