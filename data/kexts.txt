@@ -8,6 +8,7 @@ AMD8000Controller
 AMD9000Controller
 AMD9500Controller
 AMDFramebuffer
+AMDRadeonServiceManager
 AMDRadeonX4000
 AMDRadeonX4000HWLibs
 AMDRadeonX4000HWServices
@@ -24,6 +25,7 @@ AMDRadeonX5000HWLibs
 AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
 AMDRadeonX5400HWLibs
+AMDRadeonX5700HWLibs
 AMDSupport
 AirPortBrcm4360
 AirPortBrcmNIC
@@ -401,6 +403,7 @@ SonyXDCAMDriver
 StorageLynx
 System
 TMSafetyNet
+TSNCaptureInterface
 UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
