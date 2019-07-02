@@ -125,7 +125,6 @@ AppleIntelLpssUARTv0
 AppleIntelLpssUARTv1
 AppleIntelMCEReporter
 AppleIntelPCHPMC
-AppleIntelPIIXATA
 AppleIntelSKLGraphics
 AppleIntelSKLGraphicsFramebuffer
 AppleIntelSlowAdaptiveClocking
@@ -188,7 +187,6 @@ AppleTopCaseHIDEventDriver
 AppleUSBACM
 AppleUSBAudio
 AppleUSBCDC
-AppleUSBCHCOM
 AppleUSBCardReader
 AppleUSBCommon
 AppleUSBDMM
@@ -363,6 +361,7 @@ IOUSBMassStorageClass
 IOUSBMassStorageDriver
 IOUSBUserClient
 IOUserEthernet
+IOUserSerial
 IOVideoDeviceUserClient
 IOVideoFamily
 IOgPTPPlugin
@@ -384,7 +383,6 @@ NVDAGK100Hal
 NVDAResman
 NVDAStartup
 NVSMU
-NetworkingDriverKitTestEthernet
 OSvKernDSPLib
 OxfordSemiconductor
 PPP
