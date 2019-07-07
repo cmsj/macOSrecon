@@ -5,6 +5,7 @@ import macOSrecon.boardIDs as boardIDs
 import macOSrecon.GPU_AMD as GPU_AMD
 import macOSrecon.GPU_Intel as GPU_Intel
 import macOSrecon.kexts as kexts
+import macOSrecon.USB as usb
 
 OUTPUT = "data/"
 
@@ -18,6 +19,9 @@ def main():
 
     GPU_AMD.dumpAMDcards(OUTPUT + "GPU_AMD/")
     GPU_Intel.dumpIntelcards(OUTPUT + "GPU_Intel/")
+
+    usb.dumpEHCI(OUTPUT + "models-usb-ehci.txt")
+    usb.dumpXHCI(OUTPUT + "models-usb-xhci.txt")
 
 
 if __name__ == "__main__":
