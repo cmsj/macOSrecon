@@ -6,6 +6,7 @@ import macOSrecon.GPU_AMD as GPU_AMD
 import macOSrecon.GPU_Intel as GPU_Intel
 import macOSrecon.kexts as kexts
 import macOSrecon.USB as usb
+import macOSrecon.GraphicsPWM as gfxpwm
 
 OUTPUT = "data/"
 
@@ -22,6 +23,8 @@ def main():
 
     usb.dumpEHCI(OUTPUT + "models-usb-ehci.txt")
     usb.dumpXHCI(OUTPUT + "models-usb-xhci.txt")
+
+    gfxpwm.dumpModels(OUTPUT + "models-gfxpwm.txt")
 
 
 if __name__ == "__main__":
