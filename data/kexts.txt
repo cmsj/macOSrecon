@@ -39,6 +39,7 @@ AppleAPIC
 AppleATAPIStorage
 AppleAVEBridge
 AppleActuatorDriver
+AppleAfterburner
 AppleBCM5701Ethernet
 AppleBCMWLANBusInterfacePCIe
 AppleBCMWLANCore
@@ -246,7 +247,6 @@ AppleWWANSupport2
 AppleXsanScheme
 AppleXserveRAID
 Apple_iSight
-Athena
 AudioAUUC
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Hashstore
