@@ -198,7 +198,6 @@ AppleUSBEHCI
 AppleUSBEHCIPCI
 AppleUSBEthernet
 AppleUSBEthernetHost
-AppleUSBFTDI
 AppleUSBHIDMouse
 AppleUSBHostBillboardDevice
 AppleUSBHostCompositeDevice
