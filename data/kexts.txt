@@ -26,6 +26,10 @@ AMDRadeonX5000HWServices
 AMDRadeonX5100HWLibs
 AMDRadeonX5400HWLibs
 AMDRadeonX5700HWLibs
+AMDRadeonX6000
+AMDRadeonX6000Framebuffer
+AMDRadeonX6000HWLibs
+AMDRadeonX6000HWServices
 AMDSupport
 AirPortBrcm4360
 AirPortBrcmNIC
