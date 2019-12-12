@@ -30,6 +30,8 @@ AMDRadeonX6000
 AMDRadeonX6000Framebuffer
 AMDRadeonX6000HWLibs
 AMDRadeonX6000HWServices
+AMDRadeonX6100HWLibs
+AMDRadeonX6700HWLibs
 AMDSupport
 AirPortBrcm4360
 AirPortBrcmNIC
