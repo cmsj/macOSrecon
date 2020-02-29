@@ -223,6 +223,7 @@ AppleUSBOHCIPCI
 AppleUSBOpticalMouse
 AppleUSBPLCOM
 AppleUSBRealtek8153Patcher
+AppleUSBRecoveryHost
 AppleUSBSerial
 AppleUSBStorageCoexistentDriver
 AppleUSBTCButtons
@@ -237,6 +238,8 @@ AppleUSBVHCI
 AppleUSBVHCIBCE
 AppleUSBVHCICommon
 AppleUSBVHCICommonBCE
+AppleUSBVHCICommonRSM
+AppleUSBVHCIRSM
 AppleUSBWCM
 AppleUSBXHCI
 AppleUSBXHCIPCI
