@@ -120,6 +120,8 @@ AppleIntelFramebufferCapri
 AppleIntelHD4000Graphics
 AppleIntelHD5000Graphics
 AppleIntelI210Ethernet
+AppleIntelICLGraphics
+AppleIntelICLLPGraphicsFramebuffer
 AppleIntelKBLGraphics
 AppleIntelKBLGraphicsFramebuffer
 AppleIntelLpssDmac
