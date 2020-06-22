@@ -31,9 +31,9 @@ AMDRadeonX6000Framebuffer
 AMDRadeonX6000HWLibs
 AMDRadeonX6000HWServices
 AMDRadeonX6100HWLibs
+AMDRadeonX6300HWLibs
 AMDRadeonX6700HWLibs
 AMDSupport
-AirPortBrcm4360
 AirPortBrcmNIC
 Apple16X50ACPI
 Apple16X50Serial
@@ -63,6 +63,7 @@ AppleCameraInterface
 AppleConvergedIPCOLYBTControl
 AppleConvergedPCI
 AppleCredentialManager
+AppleDiskImages2
 AppleDiskImagesCryptoEncoding
 AppleDiskImagesFileBackingStore
 AppleDiskImagesHTTPBackingStore
@@ -78,6 +79,7 @@ AppleEffaceableStorage
 AppleEmbeddedOSSupportHost
 AppleEthernetAquantiaAqtion
 AppleEthernetAquantiaAqtionFirmware
+AppleEthernetBroadcomCaesar
 AppleFDEKeyStore
 AppleFIVRDriver
 AppleFSCompressionTypeDataless
@@ -87,8 +89,10 @@ AppleFWOHCI
 AppleFileSystemDriver
 AppleFileUtil
 AppleFireWireStorage
+AppleFirmwareUpdateKext
 AppleGFXHDA
 AppleGPUWrangler
+AppleGameControllerPersonality
 AppleGraphicsControl
 AppleGraphicsDeviceControl
 AppleGraphicsDevicePolicy
@@ -140,7 +144,6 @@ AppleIntelSlowAdaptiveClocking
 AppleKeyStore
 AppleLPC
 AppleLSIFusionMPT
-AppleLegacyUSBAudio
 AppleMCCSControl
 AppleMCP89RootPortPM
 AppleMGPUPowerControl
@@ -156,6 +159,8 @@ AppleMuxControl2
 AppleNMI
 AppleOSXUSBNCM
 AppleOnboardSerial
+ApplePVPanic
+AppleParavirtGPU
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
@@ -188,6 +193,7 @@ AppleThunderboltNHI
 AppleThunderboltPCIAdapters
 AppleThunderboltPCIDownAdapter
 AppleThunderboltPCIUpAdapter
+AppleThunderboltSAT
 AppleThunderboltUTDM
 AppleTopCase
 AppleTopCaseActuatorHIDDriver
@@ -213,7 +219,6 @@ AppleUSBHostMergeProperties
 AppleUSBHostPacketFilter
 AppleUSBHostPlatformProperties
 AppleUSBHub
-AppleUSBIrDA
 AppleUSBLegacyHub
 AppleUSBMergeNub
 AppleUSBMultitouch
@@ -223,11 +228,9 @@ AppleUSBODD
 AppleUSBOHCI
 AppleUSBOHCIPCI
 AppleUSBOpticalMouse
-AppleUSBPLCOM
 AppleUSBRealtek8153Patcher
 AppleUSBRecoveryHost
 AppleUSBSerial
-AppleUSBStorageCoexistentDriver
 AppleUSBTCButtons
 AppleUSBTCKeyEventDriver
 AppleUSBTCKeyboard
@@ -236,6 +239,7 @@ AppleUSBTopCase
 AppleUSBTopCaseDriver
 AppleUSBUHCI
 AppleUSBUHCIPCI
+AppleUSBUserHCI
 AppleUSBVHCI
 AppleUSBVHCIBCE
 AppleUSBVHCICommon
@@ -250,7 +254,6 @@ AppleUpstreamUserClient
 AppleVirtIO
 AppleVirtualGraphics
 AppleVmxnet3Ethernet
-AppleWWANAutoEject
 AppleWWANSupport
 AppleWWANSupport1
 AppleWWANSupport2
@@ -261,6 +264,7 @@ AudioAUUC
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Hashstore
 BCMWLANFirmware4377_Hashstore
+BCMWLANFirmware4378_Hashstore
 BSDKernel
 BootCache
 BridgeAudioCommunication
@@ -317,8 +321,6 @@ IODVDStorageFamily
 IOEthernetAVBController
 IOFireWireAVC
 IOFireWireFamily
-IOFireWireIP
-IOFireWireIPPrivate
 IOFireWireSBP2
 IOFireWireSerialBusProtocolSansPhysicalUnit
 IOFireWireSerialBusProtocolTransport
@@ -327,6 +329,7 @@ IOHDAFamily
 IOHDIXController
 IOHIDEventDriver
 IOHIDEventDriverSafeBoot
+IOHIDEventDummyService
 IOHIDFamily
 IOHIDSystem
 IOHIDUserClient
@@ -358,7 +361,6 @@ IOSurface
 IOSystemManagement
 IOThunderboltFamily
 IOTimeSyncFamily
-IOUSBAttachedSCSI
 IOUSBCompositeDriver
 IOUSBFamily
 IOUSBHIDDriver
@@ -367,7 +369,6 @@ IOUSBHIDDriverSafeBoot
 IOUSBHostFamily
 IOUSBHostHIDDevice
 IOUSBHostHIDDeviceSafeBoot
-IOUSBMassStorageClass
 IOUSBMassStorageDriver
 IOUSBUserClient
 IOUserEthernet
@@ -387,7 +388,6 @@ MACFramework
 MKE-LF-D211A
 MKE-SR-8171
 Mach
-MaxTranserSizeOverrideDriver
 NVDAGF100Hal
 NVDAGK100Hal
 NVDAResman
@@ -410,9 +410,7 @@ SanyoIDShot
 SonyXDCAMDriver
 StorageLynx
 System
-TMSafetyNet
 TSNCaptureInterface
-UFIWriteProtectedMediaDriver
 USBStorageDeviceSpecifics
 Unsupported
 WriteProtectedMediaDriver
@@ -420,7 +418,9 @@ X86PlatformPlugin
 X86PlatformShim
 acfs
 acfsctl
+afpfs
 apfs
+asp_tcp
 autofs
 cd9660
 cddafs
@@ -438,6 +438,7 @@ ntfs
 pmtelemetry
 pthread
 smbfs
+tmpfs
 triggers
 udf
 vecLib
