@@ -1,4 +1,5 @@
 ACPI_SMC_PlatformPlugin
+AFKACIPCKext
 AGDCBacklightControl
 AGDCPluginDisplayMetrics
 AGXFirmwareKextG11GRTBuddy
@@ -34,6 +35,7 @@ AMDRadeonX6000Framebuffer
 AMDRadeonX6000HWLibs
 AMDRadeonX6000HWServices
 AMDRadeonX6100HWLibs
+AMDRadeonX6200HWLibs
 AMDRadeonX6300HWLibs
 AMDRadeonX6700HWLibs
 AMDSupport
@@ -45,8 +47,6 @@ AppleA7IOP
 AppleACPIButtons
 AppleACPIEC
 AppleACPIPlatform
-AppleAD5860
-AppleAD81006
 AppleAE2Audio
 AppleAHCIPort
 AppleALSColorSensor
@@ -71,7 +71,6 @@ AppleBCMWLANCore
 AppleBCMWLANCoreMac
 AppleBSDKextStarter
 AppleBSDKextStarterTMPFS
-AppleBSDKextStarterTMPFS
 AppleBSDKextStarterVPN
 AppleBacklight
 AppleBacklightExpert
@@ -85,15 +84,8 @@ AppleBluetoothModule
 AppleBluetoothMultitouch
 AppleBluetoothRemote
 AppleBusPowerController
-AppleCS35L19Amp
-AppleCS35L20Amp
-AppleCS35L25Amp
-AppleCS35L26Amp
 AppleCS42L83Audio
-AppleCS42L83SMCAudio
-AppleCS4350Audio
 AppleCSEmbeddedAudio
-AppleCX21810Audio
 AppleCameraInterface
 AppleConvergedIPCOLYBTControl
 AppleConvergedPCI
@@ -157,8 +149,6 @@ AppleEmbeddedUSBHost
 AppleEmbeddedUSBXHCIPCI
 AppleEthernetAquantiaAqtion
 AppleEthernetAquantiaAqtionFirmware
-AppleEthernetBroadcomCaesar
-AppleFAB3202Amp
 AppleFAN53740
 AppleFDEKeyStore
 AppleFIVRDriver
@@ -240,9 +230,6 @@ AppleLSIFusionMPT
 AppleLightningErrorHandler
 AppleM2ScalerCSC
 AppleM68Buttons
-AppleMAX98706Amp
-AppleMAX98711Amp
-AppleMAX98723Amp
 AppleMAX98726Audio
 AppleMCA2_T8027
 AppleMCCSControl
@@ -264,6 +251,7 @@ AppleMuxControl2
 AppleNANDConfigAccess
 AppleNMI
 AppleOnboardSerial
+ApplePIODMA
 ApplePMGR
 ApplePMP
 ApplePVPanic
@@ -272,7 +260,6 @@ ApplePassthroughPPM
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
-AppleQEMUHID
 AppleRAID
 AppleRTC
 AppleS5L8920XPWM
@@ -300,7 +287,6 @@ AppleSPMIPMU
 AppleSPU
 AppleSRP
 AppleSSE
-AppleSamsungPKE
 AppleSamsungSPI
 AppleSamsungSerial
 AppleSmartBatteryManager
@@ -333,7 +319,6 @@ AppleT8027USBXDCI
 AppleT8030TypeCPhy
 AppleT8101TypeCPhy
 AppleT8103TypeCPhy
-AppleTAS5764Amp
 AppleTAS5770LAmp
 AppleTCA7408GPIOIC
 AppleThunderboltDPAdapterFamily
@@ -427,6 +412,7 @@ AppleWWANSupport2
 AppleXsanScheme
 AppleXserveRAID
 Apple_iSight
+ArcMSR
 AudioAUUC
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Hashstore
@@ -594,6 +580,7 @@ PPPoE
 PioneerSuperDrive
 PlasmonUDO
 Private
+PromiseSTEX
 QPSQueFire
 Quarantine
 RTBuddy
