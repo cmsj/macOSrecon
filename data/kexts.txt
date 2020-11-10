@@ -366,6 +366,7 @@ AppleUSBHostT6000
 AppleUSBHostT8027
 AppleUSBHub
 AppleUSBLegacyHub
+AppleUSBMassStorageInterfaceNub
 AppleUSBMergeNub
 AppleUSBMike
 AppleUSBMultitouch
