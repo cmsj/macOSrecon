@@ -573,7 +573,6 @@ IOHDCPFamily
 IOHDIXController
 IOHIDEventDriver
 IOHIDEventDriverSafeBoot
-IOHIDEventDummyService
 IOHIDFamily
 IOHIDSystem
 IOHIDUserClient
