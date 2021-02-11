@@ -4,6 +4,7 @@
 import macOSrecon.boardIDs as boardIDs
 import macOSrecon.GPU_AMD as GPU_AMD
 import macOSrecon.GPU_Intel as GPU_Intel
+import macOSrecon.kernel as kernel
 import macOSrecon.kexts as kexts
 import macOSrecon.USB as usb
 import macOSrecon.GraphicsPWM as gfxpwm
@@ -16,6 +17,7 @@ def main():
     boardIDs.dumpX86(OUTPUT + "boardIDs-x86.txt")
     boardIDs.dumpACPI_SMC(OUTPUT + "boardIDs-ACPI_SMC.txt")
 
+    kernel.dumpVers(OUTPUT + "kernel.txt")
     kexts.dumpExts(OUTPUT + "kexts.txt")
 
     GPU_AMD.dumpAMDcards(OUTPUT + "GPU_AMD/")
