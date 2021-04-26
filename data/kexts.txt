@@ -56,6 +56,7 @@ AppleANXDPTX
 AppleAOPAudio
 AppleAOPVoiceTrigger
 AppleAPIC
+AppleARMGIC
 AppleARMIISAudio
 AppleARMPMU
 AppleARMPlatform
@@ -88,7 +89,6 @@ AppleBluetoothMultitouch
 AppleBluetoothRemote
 AppleBusPowerController
 AppleCS42L83Audio
-AppleCS42L84Audio
 AppleCSEmbeddedAudio
 AppleCameraInterface
 AppleConvergedIPCOLYBTControl
@@ -119,6 +119,7 @@ AppleD2449PMU
 AppleD2460PMU
 AppleDAPF
 AppleDCP
+AppleDCPDPDisplayProxy
 AppleDCPDPTXProxy
 AppleDPDisplay
 AppleDPDisplayTCON
@@ -282,6 +283,8 @@ ApplePMP
 ApplePMPFirmware
 ApplePVPanic
 AppleParavirtGPU
+AppleParavirtGPUIOGPUFamily
+AppleParavirtIOSurface
 ApplePassthroughPPM
 ApplePerfPolicyControllers
 ApplePlatformEnabler
@@ -312,7 +315,6 @@ AppleSMC
 AppleSMCLMU
 AppleSMCPDRC
 AppleSMCRTC
-AppleSN012776Amp
 AppleSPIMC
 AppleSPMI
 AppleSPMIPMU
@@ -333,9 +335,7 @@ AppleSynopsysMIPIDSI
 AppleSynopsysOTGDevice
 AppleSystemPolicy
 AppleT6000AUSBPhy
-AppleT6000PCIeC
 AppleT6000TypeCPhy
-AppleT600xPCIe
 AppleT7000USBOTGDevice
 AppleT8002USB
 AppleT8006USB
@@ -392,6 +392,7 @@ AppleTopCaseActuatorHIDDriver
 AppleTopCaseDriverV2
 AppleTopCaseHIDEventDriver
 AppleTriStar
+AppleTrustedAccessory
 AppleTwisterErrorHandler
 AppleTypeCPhy
 AppleUSBACM
@@ -418,7 +419,6 @@ AppleUSBHostPacketFilter
 AppleUSBHostPlatformProperties
 AppleUSBHostS5L8930X
 AppleUSBHostS5L8960X
-AppleUSBHostT6000
 AppleUSBHostT7000
 AppleUSBHostT8002
 AppleUSBHostT8011
@@ -466,9 +466,13 @@ AppleUSBXHCIARM
 AppleUSBXHCIPCI
 AppleUSBiBridge
 AppleUpstreamUserClient
+AppleVPCredentialManager
+AppleVPKeyStore
 AppleVirtIO
+AppleVirtIOStorage
 AppleVirtualGraphics
 AppleVirtualMCA
+AppleVirtualPlatform
 AppleVmxnet3Ethernet
 AppleVortexErrorHandler
 AppleWWANSupport
