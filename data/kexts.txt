@@ -40,6 +40,7 @@ AMDRadeonX6100HWLibs
 AMDRadeonX6200HWLibs
 AMDRadeonX6300HWLibs
 AMDRadeonX6700HWLibs
+AMDRadeonX6800HWLibs
 AMDSupport
 AUC
 AirPortBrcmNIC
@@ -466,6 +467,7 @@ AppleUSBXHCIARM
 AppleUSBXHCIPCI
 AppleUSBiBridge
 AppleUpstreamUserClient
+AppleVPBootPolicy
 AppleVPCredentialManager
 AppleVPKeyStore
 AppleVirtIO
