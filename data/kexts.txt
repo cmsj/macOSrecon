@@ -1,5 +1,6 @@
 ACPI_SMC_PlatformPlugin
 AFKACIPCKext
+AFTK_Kext
 AGDCBacklightControl
 AGDCPluginDisplayMetrics
 AGXFirmwareKextG11GRTBuddy
@@ -50,9 +51,9 @@ AppleA7IOP
 AppleACPIButtons
 AppleACPIEC
 AppleACPIPlatform
-AppleAE2Audio
 AppleAHCIPort
 AppleALSColorSensor
+AppleANELoadBalancer
 AppleANXDPTX
 AppleAOPAudio
 AppleAOPVoiceTrigger
@@ -61,12 +62,14 @@ AppleARMGIC
 AppleARMIISAudio
 AppleARMPMU
 AppleARMPlatform
+AppleARMWatchdogTimer
 AppleATAPIStorage
 AppleAVD
 AppleAVE2
 AppleAVEBridge
 AppleActuatorDriver
 AppleAfterburner
+AppleAudioClockLibs
 AppleAuthCP
 AppleBCM5701Ethernet
 AppleBCMWLANBusInterfacePCIe
@@ -139,6 +142,7 @@ AppleDiskImagesReadWriteDiskImage
 AppleDiskImagesSparseDiskImage
 AppleDiskImagesUDIFDiskImage
 AppleDisplayCrossbar
+AppleDockChannel
 AppleDummyCodecAudio
 AppleEFINVRAM
 AppleEFIRuntime
@@ -161,6 +165,7 @@ AppleEmbeddedTouchEEPROMDriver
 AppleEmbeddedUSB
 AppleEmbeddedUSBHost
 AppleEmbeddedUSBXHCIPCI
+AppleEncryptedArchive
 AppleEthernetAquantiaAqtion
 AppleEthernetAquantiaAqtionFirmware
 AppleEventLogHandler
@@ -207,6 +212,7 @@ AppleHV
 AppleHighVoltageCharger
 AppleHollywood
 AppleI2CEthernetAquantia
+AppleIISController
 AppleIPAppender
 AppleIRController
 AppleImage4
@@ -218,8 +224,6 @@ AppleIntelCFLGraphicsFramebuffer
 AppleIntelCPUPowerManagement
 AppleIntelCPUPowerManagementClient
 AppleIntelFramebufferAzul
-AppleIntelFramebufferCapri
-AppleIntelHD4000Graphics
 AppleIntelHD5000Graphics
 AppleIntelI210Ethernet
 AppleIntelICLGraphics
@@ -277,6 +281,8 @@ AppleMuxControl
 AppleMuxControl2
 AppleNANDConfigAccess
 AppleNMI
+AppleOLYHAL
+AppleOLYHALMac
 AppleOnboardSerial
 ApplePIODMA
 ApplePMGR
@@ -294,13 +300,13 @@ ApplePolicyControl
 AppleRAID
 AppleRSM
 AppleRTC
+AppleRemoteIOP
 AppleS5L8920XPWM
 AppleS5L8930XUSB
 AppleS5L8940XDWI
 AppleS5L8940XI2C
 AppleS5L8960XNCO
 AppleS5L8960XUSB
-AppleS5L8960XWatchDogTimer
 AppleS8000AES
 AppleS8000DWI
 AppleSART
@@ -326,6 +332,7 @@ AppleSSM3515Audio
 AppleSTDP2700
 AppleSamsungSPI
 AppleSamsungSerial
+AppleSerialShim
 AppleSmartBatteryManager
 AppleSmartIO2
 AppleStark
@@ -336,7 +343,6 @@ AppleSynopsysMIPIDSI
 AppleSynopsysOTGDevice
 AppleSystemPolicy
 AppleT6000AUSBPhy
-AppleT6000TypeCPhy
 AppleT7000USBOTGDevice
 AppleT8002USB
 AppleT8006USB
@@ -369,6 +375,7 @@ AppleT8103PCIeC
 AppleT8103PMGR
 AppleT8103TypeCPhy
 AppleT8103USB
+AppleT8301USB
 AppleTAS5770LAmp
 AppleTCA6408GPIOIC
 AppleTCA7408GPIOIC
@@ -420,6 +427,7 @@ AppleUSBHostPacketFilter
 AppleUSBHostPlatformProperties
 AppleUSBHostS5L8930X
 AppleUSBHostS5L8960X
+AppleUSBHostT6000
 AppleUSBHostT7000
 AppleUSBHostT8002
 AppleUSBHostT8011
@@ -473,7 +481,6 @@ AppleVPKeyStore
 AppleVirtIO
 AppleVirtIOStorage
 AppleVirtualGraphics
-AppleVirtualMCA
 AppleVirtualPlatform
 AppleVmxnet3Ethernet
 AppleVortexErrorHandler
@@ -498,7 +505,6 @@ BridgeAudioController
 BroadcomBluetooth20703USBTransport
 BroadcomBluetoothHostControllerUSBTransport
 CSRBluetoothHostControllerUSBTransport
-CSRHIDTransitionDriver
 CanonEOS1D
 CellPhoneHelper
 CoreAnalyticsFamily
@@ -527,9 +533,8 @@ HFS_MacCyrillic
 HFS_MacJapanese
 HFS_MacKorean
 IO80211Family
-IO80211FamilyV2
+IO80211FamilyLegacy
 IO80211NetBooter
-IO80211NetBooterV2
 IOACPIFamily
 IOAHCIBlockStorage
 IOAHCIFamily
@@ -557,7 +562,6 @@ IOBluetoothHostControllerUARTTransport
 IOBluetoothHostControllerUSBTransport
 IOBluetoothPacketLogger
 IOBluetoothSerialManager
-IOBluetoothUSBDFU
 IOBufferCopyController
 IOBufferCopyEngineFamily
 IOCDStorageFamily
@@ -633,6 +637,7 @@ IOgPTPPlugin
 Intel82574L
 InvalidateHmac
 Kasan
+Kcov
 KernelRelayHost
 KextAudit
 L2TP
@@ -660,6 +665,7 @@ PromiseSTEX
 QPSQueFire
 Quarantine
 RTBuddy
+RTBuddyV3
 SCSIDeviceSpecifics
 SCSITaskUserClient
 SEPHibernation
@@ -671,6 +677,7 @@ StorageLynx
 System
 TSNCaptureInterface
 USBStorageDeviceSpecifics
+UVCService
 Unsupported
 VMPlatformPlugin
 WriteProtectedMediaDriver
@@ -691,6 +698,7 @@ exfat
 iPodDriver
 iPodSBCDriver
 initioFWBridge
+lifs
 mDNSOffloadUserClient
 mcxalr
 msdosfs
