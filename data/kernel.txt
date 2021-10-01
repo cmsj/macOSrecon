@@ -1,1 +1,1 @@
-Darwin Kernel Version 21.0.0: Thu May 27 21:01:58 PDT 2021; root:xnu-7938.0.0.111.2~2/RELEASE_X86_64
+Darwin Kernel Version 21.1.0: Thu Sep 23 21:17:12 PDT 2021; root:xnu-8019.40.86.181.1~2/RELEASE_ARM64_T8101

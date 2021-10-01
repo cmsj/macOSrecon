@@ -71,6 +71,7 @@ AppleActuatorDriver
 AppleAfterburner
 AppleAudioClockLibs
 AppleAuthCP
+AppleAvalancheErrorHandler
 AppleBCM5701Ethernet
 AppleBCMWLANBusInterfacePCIe
 AppleBCMWLANBusInterfacePCIeMac
@@ -244,6 +245,7 @@ AppleIntelSKLGraphics
 AppleIntelSKLGraphicsFramebuffer
 AppleIntelSlowAdaptiveClocking
 AppleInterruptController
+AppleInterruptControllerV2
 AppleJPEGDriver
 AppleKeyStore
 AppleLMBacklight
@@ -341,8 +343,9 @@ AppleStorageDrivers
 AppleSummitLCD
 AppleSynopsysMIPIDSI
 AppleSynopsysOTGDevice
+AppleSynopsysUSB40XHCI
+AppleSynopsysUSBXHCI
 AppleSystemPolicy
-AppleT6000AUSBPhy
 AppleT7000USBOTGDevice
 AppleT8002USB
 AppleT8006USB
@@ -375,6 +378,8 @@ AppleT8103PCIeC
 AppleT8103PMGR
 AppleT8103TypeCPhy
 AppleT8103USB
+AppleT8110PCIe
+AppleT8110PMGR
 AppleT8301USB
 AppleTAS5770LAmp
 AppleTCA6408GPIOIC
@@ -427,14 +432,10 @@ AppleUSBHostPacketFilter
 AppleUSBHostPlatformProperties
 AppleUSBHostS5L8930X
 AppleUSBHostS5L8960X
-AppleUSBHostT6000
 AppleUSBHostT7000
 AppleUSBHostT8002
 AppleUSBHostT8011
 AppleUSBHostT8020
-AppleUSBHostT8027
-AppleUSBHostT8030
-AppleUSBHostT8103
 AppleUSBHub
 AppleUSBLegacyHub
 AppleUSBMassStorageInterfaceNub
@@ -471,7 +472,6 @@ AppleUSBWCM
 AppleUSBXDCI
 AppleUSBXDCIARM
 AppleUSBXHCI
-AppleUSBXHCIARM
 AppleUSBXHCIPCI
 AppleUSBiBridge
 AppleUpstreamUserClient
@@ -523,7 +523,6 @@ FSPlaceholder
 FWPreferredProtocolSpeed
 FairPlayIOKit
 FireWireStorageDeviceSpecifics
-GeForce
 HFS
 HFSEncodings
 HFS_MacCentralEurRoman
@@ -649,10 +648,6 @@ MACFramework
 MKE-LF-D211A
 MKE-SR-8171
 Mach
-NVDAGF100Hal
-NVDAGK100Hal
-NVDAResman
-NVDAStartup
 NVSMU
 OSvKernDSPLib
 OxfordSemiconductor
