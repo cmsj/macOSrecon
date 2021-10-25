@@ -5,9 +5,11 @@ AGDCBacklightControl
 AGDCPluginDisplayMetrics
 AGXFirmwareKextG11GRTBuddy
 AGXFirmwareKextG13GRTBuddy
+AGXFirmwareKextG13XRTBuddy
 AGXFirmwareKextRTBuddy64
 AGXG11G
 AGXG13G
+AGXG13X
 ALF
 AMD10000Controller
 AMD7000Controller
@@ -94,6 +96,7 @@ AppleBluetoothMultitouch
 AppleBluetoothRemote
 AppleBusPowerController
 AppleCS42L83Audio
+AppleCS42L84Audio
 AppleCSEmbeddedAudio
 AppleCameraInterface
 AppleConvergedIPCOLYBTControl
@@ -257,6 +260,7 @@ AppleM68Buttons
 AppleMAX98357Amp
 AppleMAX98721Amp
 AppleMAX98726Audio
+AppleMCA2_T600x
 AppleMCA2_T8020
 AppleMCA2_T8027
 AppleMCA2_T8103
@@ -275,6 +279,8 @@ AppleMobileDispH11G
 AppleMobileDispH13G
 AppleMobileDispH13G-DCP
 AppleMobileDispH13G-DFR
+AppleMobileDispT600X
+AppleMobileDispT600X-DCP
 AppleMobileFileIntegrity
 AppleMultiFunctionManager
 AppleMultiFunctionManagerMac
@@ -285,6 +291,7 @@ AppleNANDConfigAccess
 AppleNMI
 AppleOLYHAL
 AppleOLYHALMac
+AppleOceanPlatform
 AppleOnboardSerial
 ApplePIODMA
 ApplePMGR
@@ -299,6 +306,7 @@ ApplePerfPolicyControllers
 ApplePlatformEnabler
 ApplePlatformFamily
 ApplePolicyControl
+AppleProResHW
 AppleRAID
 AppleRSM
 AppleRTC
@@ -324,6 +332,7 @@ AppleSMC
 AppleSMCLMU
 AppleSMCPDRC
 AppleSMCRTC
+AppleSN012776Amp
 AppleSPIMC
 AppleSPMI
 AppleSPMIPMU
@@ -346,6 +355,15 @@ AppleSynopsysOTGDevice
 AppleSynopsysUSB40XHCI
 AppleSynopsysUSBXHCI
 AppleSystemPolicy
+AppleT6000
+AppleT6000CLPCv3
+AppleT6000DART
+AppleT6000PCIeC
+AppleT6000PMGR
+AppleT6000SOCTuner
+AppleT6000TypeCPhy
+AppleT6001PMGR
+AppleT600xPCIe
 AppleT7000USBOTGDevice
 AppleT8002USB
 AppleT8006USB
@@ -378,8 +396,12 @@ AppleT8103PCIeC
 AppleT8103PMGR
 AppleT8103TypeCPhy
 AppleT8103USB
+AppleT8110
+AppleT8110AFT
+AppleT8110DART
 AppleT8110PCIe
 AppleT8110PMGR
+AppleT8112TypeCPhy
 AppleT8301USB
 AppleTAS5770LAmp
 AppleTCA6408GPIOIC
@@ -492,11 +514,13 @@ AppleXserveRAID
 Apple_iSight
 ArcMSR
 AudioAUUC
+AudioDMAController_T600x
 AudioDMAController_T8103
 BCMWLANFirmware4355_Hashstore
 BCMWLANFirmware4364_Hashstore
 BCMWLANFirmware4377_Hashstore
 BCMWLANFirmware4378_Hashstore
+BCMWLANFirmware4387_Hashstore
 BSDKernel
 BootCache
 BootPolicy
