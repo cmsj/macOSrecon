@@ -44,6 +44,7 @@ AMDRadeonX6200HWLibs
 AMDRadeonX6300HWLibs
 AMDRadeonX6700HWLibs
 AMDRadeonX6800HWLibs
+AMDRadeonX6810HWLibs
 AMDSupport
 AUC
 AirPortBrcmNIC
