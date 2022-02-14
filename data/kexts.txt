@@ -173,6 +173,7 @@ AppleEmbeddedUSBXHCIPCI
 AppleEncryptedArchive
 AppleEthernetAquantiaAqtion
 AppleEthernetAquantiaAqtionFirmware
+AppleEthernetAquantiaAqtionPortMonitor
 AppleEventLogHandler
 AppleFAN53740
 AppleFDEKeyStore
